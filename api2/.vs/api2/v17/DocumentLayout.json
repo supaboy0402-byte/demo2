@@ -1,0 +1,470 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ADMIN\\Desktop\\New folder\\New folder\\music-store2(ban 2)\\music-store2\\api2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{44C0A418-CFB4-4026-9D52-DCF1C9C63F56}|api2\\api2.csproj|c:\\users\\admin\\desktop\\new folder\\new folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44C0A418-CFB4-4026-9D52-DCF1C9C63F56}|api2\\api2.csproj|solutionrelative:api2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44C0A418-CFB4-4026-9D52-DCF1C9C63F56}|api2\\api2.csproj|c:\\users\\admin\\desktop\\new folder\\new folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{44C0A418-CFB4-4026-9D52-DCF1C9C63F56}|api2\\api2.csproj|solutionrelative:api2\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44C0A418-CFB4-4026-9D52-DCF1C9C63F56}|api2\\api2.csproj|c:\\users\\admin\\desktop\\new folder\\new folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{44C0A418-CFB4-4026-9D52-DCF1C9C63F56}|api2\\api2.csproj|solutionrelative:api2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44C0A418-CFB4-4026-9D52-DCF1C9C63F56}|api2\\api2.csproj|c:\\users\\admin\\desktop\\new folder\\new folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44C0A418-CFB4-4026-9D52-DCF1C9C63F56}|api2\\api2.csproj|solutionrelative:api2\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44C0A418-CFB4-4026-9D52-DCF1C9C63F56}|api2\\api2.csproj|c:\\users\\admin\\desktop\\new folder\\new folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44C0A418-CFB4-4026-9D52-DCF1C9C63F56}|api2\\api2.csproj|solutionrelative:api2\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44C0A418-CFB4-4026-9D52-DCF1C9C63F56}|api2\\api2.csproj|c:\\users\\admin\\desktop\\new folder\\new folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\controllers\\wishlistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44C0A418-CFB4-4026-9D52-DCF1C9C63F56}|api2\\api2.csproj|solutionrelative:api2\\controllers\\wishlistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44C0A418-CFB4-4026-9D52-DCF1C9C63F56}|api2\\api2.csproj|c:\\users\\admin\\desktop\\new folder\\new folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\controllers\\tagscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44C0A418-CFB4-4026-9D52-DCF1C9C63F56}|api2\\api2.csproj|solutionrelative:api2\\controllers\\tagscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44C0A418-CFB4-4026-9D52-DCF1C9C63F56}|api2\\api2.csproj|c:\\users\\admin\\desktop\\new folder\\new folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44C0A418-CFB4-4026-9D52-DCF1C9C63F56}|api2\\api2.csproj|solutionrelative:api2\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44C0A418-CFB4-4026-9D52-DCF1C9C63F56}|api2\\api2.csproj|c:\\users\\admin\\desktop\\new folder\\new folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\controllers\\settingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44C0A418-CFB4-4026-9D52-DCF1C9C63F56}|api2\\api2.csproj|solutionrelative:api2\\controllers\\settingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44C0A418-CFB4-4026-9D52-DCF1C9C63F56}|api2\\api2.csproj|c:\\users\\admin\\desktop\\new folder\\new folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\controllers\\stockdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44C0A418-CFB4-4026-9D52-DCF1C9C63F56}|api2\\api2.csproj|solutionrelative:api2\\controllers\\stockdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44C0A418-CFB4-4026-9D52-DCF1C9C63F56}|api2\\api2.csproj|c:\\users\\admin\\desktop\\new folder\\new folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\controllers\\orderitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44C0A418-CFB4-4026-9D52-DCF1C9C63F56}|api2\\api2.csproj|solutionrelative:api2\\controllers\\orderitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44C0A418-CFB4-4026-9D52-DCF1C9C63F56}|api2\\api2.csproj|c:\\users\\admin\\desktop\\new folder\\new folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\models\\musicstoredbfinal2context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44C0A418-CFB4-4026-9D52-DCF1C9C63F56}|api2\\api2.csproj|solutionrelative:api2\\models\\musicstoredbfinal2context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44C0A418-CFB4-4026-9D52-DCF1C9C63F56}|api2\\api2.csproj|c:\\users\\admin\\desktop\\new folder\\new folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\controllers\\brandscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44C0A418-CFB4-4026-9D52-DCF1C9C63F56}|api2\\api2.csproj|solutionrelative:api2\\controllers\\brandscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44C0A418-CFB4-4026-9D52-DCF1C9C63F56}|api2\\api2.csproj|c:\\users\\admin\\desktop\\new folder\\new folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\controllers\\warrantyticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44C0A418-CFB4-4026-9D52-DCF1C9C63F56}|api2\\api2.csproj|solutionrelative:api2\\controllers\\warrantyticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44C0A418-CFB4-4026-9D52-DCF1C9C63F56}|api2\\api2.csproj|c:\\users\\admin\\desktop\\new folder\\new folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\controllers\\stockmovementscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44C0A418-CFB4-4026-9D52-DCF1C9C63F56}|api2\\api2.csproj|solutionrelative:api2\\controllers\\stockmovementscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44C0A418-CFB4-4026-9D52-DCF1C9C63F56}|api2\\api2.csproj|c:\\users\\admin\\desktop\\new folder\\new folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\controllers\\reviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44C0A418-CFB4-4026-9D52-DCF1C9C63F56}|api2\\api2.csproj|solutionrelative:api2\\controllers\\reviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44C0A418-CFB4-4026-9D52-DCF1C9C63F56}|api2\\api2.csproj|c:\\users\\admin\\desktop\\new folder\\new folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\controllers\\promotionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44C0A418-CFB4-4026-9D52-DCF1C9C63F56}|api2\\api2.csproj|solutionrelative:api2\\controllers\\promotionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44C0A418-CFB4-4026-9D52-DCF1C9C63F56}|api2\\api2.csproj|c:\\users\\admin\\desktop\\new folder\\new folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\controllers\\producttagmappingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44C0A418-CFB4-4026-9D52-DCF1C9C63F56}|api2\\api2.csproj|solutionrelative:api2\\controllers\\producttagmappingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44C0A418-CFB4-4026-9D52-DCF1C9C63F56}|api2\\api2.csproj|c:\\users\\admin\\desktop\\new folder\\new folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\controllers\\productspecificationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44C0A418-CFB4-4026-9D52-DCF1C9C63F56}|api2\\api2.csproj|solutionrelative:api2\\controllers\\productspecificationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44C0A418-CFB4-4026-9D52-DCF1C9C63F56}|api2\\api2.csproj|c:\\users\\admin\\desktop\\new folder\\new folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\controllers\\productimagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44C0A418-CFB4-4026-9D52-DCF1C9C63F56}|api2\\api2.csproj|solutionrelative:api2\\controllers\\productimagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44C0A418-CFB4-4026-9D52-DCF1C9C63F56}|api2\\api2.csproj|c:\\users\\admin\\desktop\\new folder\\new folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44C0A418-CFB4-4026-9D52-DCF1C9C63F56}|api2\\api2.csproj|solutionrelative:api2\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44C0A418-CFB4-4026-9D52-DCF1C9C63F56}|api2\\api2.csproj|c:\\users\\admin\\desktop\\new folder\\new folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44C0A418-CFB4-4026-9D52-DCF1C9C63F56}|api2\\api2.csproj|solutionrelative:api2\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44C0A418-CFB4-4026-9D52-DCF1C9C63F56}|api2\\api2.csproj|c:\\users\\admin\\desktop\\new folder\\new folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44C0A418-CFB4-4026-9D52-DCF1C9C63F56}|api2\\api2.csproj|solutionrelative:api2\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44C0A418-CFB4-4026-9D52-DCF1C9C63F56}|api2\\api2.csproj|c:\\users\\admin\\desktop\\new folder\\new folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\controllers\\couponscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44C0A418-CFB4-4026-9D52-DCF1C9C63F56}|api2\\api2.csproj|solutionrelative:api2\\controllers\\couponscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44C0A418-CFB4-4026-9D52-DCF1C9C63F56}|api2\\api2.csproj|c:\\users\\admin\\desktop\\new folder\\new folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\controllers\\contactmessagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44C0A418-CFB4-4026-9D52-DCF1C9C63F56}|api2\\api2.csproj|solutionrelative:api2\\controllers\\contactmessagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44C0A418-CFB4-4026-9D52-DCF1C9C63F56}|api2\\api2.csproj|c:\\users\\admin\\desktop\\new folder\\new folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44C0A418-CFB4-4026-9D52-DCF1C9C63F56}|api2\\api2.csproj|solutionrelative:api2\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44C0A418-CFB4-4026-9D52-DCF1C9C63F56}|api2\\api2.csproj|c:\\users\\admin\\desktop\\new folder\\new folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\controllers\\blogpostscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44C0A418-CFB4-4026-9D52-DCF1C9C63F56}|api2\\api2.csproj|solutionrelative:api2\\controllers\\blogpostscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\New folder\\New folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\Program.cs",
+              "RelativeDocumentMoniker": "api2\\Program.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\New folder\\New folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\Program.cs",
+              "RelativeToolTip": "api2\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T17:42:11.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\New folder\\New folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "api2\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\New folder\\New folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\appsettings.Development.json",
+              "RelativeToolTip": "api2\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-02T12:48:39.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OrderItemsController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\New folder\\New folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\Controllers\\OrderItemsController.cs",
+              "RelativeDocumentMoniker": "api2\\Controllers\\OrderItemsController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\New folder\\New folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\Controllers\\OrderItemsController.cs",
+              "RelativeToolTip": "api2\\Controllers\\OrderItemsController.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAIwHIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T14:27:12.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TagsController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\New folder\\New folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\Controllers\\TagsController.cs",
+              "RelativeDocumentMoniker": "api2\\Controllers\\TagsController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\New folder\\New folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\Controllers\\TagsController.cs",
+              "RelativeToolTip": "api2\\Controllers\\TagsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T14:46:20.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WishlistsController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\New folder\\New folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\Controllers\\WishlistsController.cs",
+              "RelativeDocumentMoniker": "api2\\Controllers\\WishlistsController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\New folder\\New folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\Controllers\\WishlistsController.cs",
+              "RelativeToolTip": "api2\\Controllers\\WishlistsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T14:47:37.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StockDetailsController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\New folder\\New folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\Controllers\\StockDetailsController.cs",
+              "RelativeDocumentMoniker": "api2\\Controllers\\StockDetailsController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\New folder\\New folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\Controllers\\StockDetailsController.cs",
+              "RelativeToolTip": "api2\\Controllers\\StockDetailsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T14:45:28.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\New folder\\New folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\appsettings.json",
+              "RelativeDocumentMoniker": "api2\\appsettings.json",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\New folder\\New folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\appsettings.json",
+              "RelativeToolTip": "api2\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-10T17:58:03.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MusicStoreDbFinal2Context.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\New folder\\New folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\Models\\MusicStoreDbFinal2Context.cs",
+              "RelativeDocumentMoniker": "api2\\Models\\MusicStoreDbFinal2Context.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\New folder\\New folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\Models\\MusicStoreDbFinal2Context.cs",
+              "RelativeToolTip": "api2\\Models\\MusicStoreDbFinal2Context.cs",
+              "ViewState": "AgIAAMQAAAAAAAAAAAAQwNwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T17:40:12.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\New folder\\New folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "api2\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\New folder\\New folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "api2\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T14:26:20.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\New folder\\New folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "api2\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\New folder\\New folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "api2\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T14:46:47.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RolesController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\New folder\\New folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\Controllers\\RolesController.cs",
+              "RelativeDocumentMoniker": "api2\\Controllers\\RolesController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\New folder\\New folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\Controllers\\RolesController.cs",
+              "RelativeToolTip": "api2\\Controllers\\RolesController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwDcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T14:39:17.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SettingsController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\New folder\\New folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\Controllers\\SettingsController.cs",
+              "RelativeDocumentMoniker": "api2\\Controllers\\SettingsController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\New folder\\New folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\Controllers\\SettingsController.cs",
+              "RelativeToolTip": "api2\\Controllers\\SettingsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T14:39:57.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAANIUAAAAAAAAAAAmwPMUAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-11-17T11:11:30.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "WarrantyTicketsController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\New folder\\New folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\Controllers\\WarrantyTicketsController.cs",
+              "RelativeDocumentMoniker": "api2\\Controllers\\WarrantyTicketsController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\New folder\\New folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\Controllers\\WarrantyTicketsController.cs",
+              "RelativeToolTip": "api2\\Controllers\\WarrantyTicketsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T14:47:14.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "StockMovementsController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\New folder\\New folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\Controllers\\StockMovementsController.cs",
+              "RelativeDocumentMoniker": "api2\\Controllers\\StockMovementsController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\New folder\\New folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\Controllers\\StockMovementsController.cs",
+              "RelativeToolTip": "api2\\Controllers\\StockMovementsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T14:45:54.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BrandsController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\New folder\\New folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\Controllers\\BrandsController.cs",
+              "RelativeDocumentMoniker": "api2\\Controllers\\BrandsController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\New folder\\New folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\Controllers\\BrandsController.cs",
+              "RelativeToolTip": "api2\\Controllers\\BrandsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T08:20:16.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ReviewsController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\New folder\\New folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\Controllers\\ReviewsController.cs",
+              "RelativeDocumentMoniker": "api2\\Controllers\\ReviewsController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\New folder\\New folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\Controllers\\ReviewsController.cs",
+              "RelativeToolTip": "api2\\Controllers\\ReviewsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T14:38:12.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PromotionsController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\New folder\\New folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\Controllers\\PromotionsController.cs",
+              "RelativeDocumentMoniker": "api2\\Controllers\\PromotionsController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\New folder\\New folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\Controllers\\PromotionsController.cs",
+              "RelativeToolTip": "api2\\Controllers\\PromotionsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T14:34:55.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ProductTagMappingsController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\New folder\\New folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\Controllers\\ProductTagMappingsController.cs",
+              "RelativeDocumentMoniker": "api2\\Controllers\\ProductTagMappingsController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\New folder\\New folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\Controllers\\ProductTagMappingsController.cs",
+              "RelativeToolTip": "api2\\Controllers\\ProductTagMappingsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T14:31:14.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProductSpecificationsController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\New folder\\New folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\Controllers\\ProductSpecificationsController.cs",
+              "RelativeDocumentMoniker": "api2\\Controllers\\ProductSpecificationsController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\New folder\\New folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\Controllers\\ProductSpecificationsController.cs",
+              "RelativeToolTip": "api2\\Controllers\\ProductSpecificationsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T14:30:28.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ProductImagesController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\New folder\\New folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\Controllers\\ProductImagesController.cs",
+              "RelativeDocumentMoniker": "api2\\Controllers\\ProductImagesController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\New folder\\New folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\Controllers\\ProductImagesController.cs",
+              "RelativeToolTip": "api2\\Controllers\\ProductImagesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T14:29:20.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\New folder\\New folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "api2\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\New folder\\New folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "api2\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T14:28:21.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "PaymentsController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\New folder\\New folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\Controllers\\PaymentsController.cs",
+              "RelativeDocumentMoniker": "api2\\Controllers\\PaymentsController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\New folder\\New folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\Controllers\\PaymentsController.cs",
+              "RelativeToolTip": "api2\\Controllers\\PaymentsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T14:27:53.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "EventsController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\New folder\\New folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\Controllers\\EventsController.cs",
+              "RelativeDocumentMoniker": "api2\\Controllers\\EventsController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\New folder\\New folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\Controllers\\EventsController.cs",
+              "RelativeToolTip": "api2\\Controllers\\EventsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T14:24:15.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CouponsController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\New folder\\New folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\Controllers\\CouponsController.cs",
+              "RelativeDocumentMoniker": "api2\\Controllers\\CouponsController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\New folder\\New folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\Controllers\\CouponsController.cs",
+              "RelativeToolTip": "api2\\Controllers\\CouponsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T14:23:40.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ContactMessagesController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\New folder\\New folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\Controllers\\ContactMessagesController.cs",
+              "RelativeDocumentMoniker": "api2\\Controllers\\ContactMessagesController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\New folder\\New folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\Controllers\\ContactMessagesController.cs",
+              "RelativeToolTip": "api2\\Controllers\\ContactMessagesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T14:23:07.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\New folder\\New folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "api2\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\New folder\\New folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "api2\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T14:22:33.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "BlogPostsController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\New folder\\New folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\Controllers\\BlogPostsController.cs",
+              "RelativeDocumentMoniker": "api2\\Controllers\\BlogPostsController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\New folder\\New folder\\music-store2(ban 2)\\music-store2\\api2\\api2\\Controllers\\BlogPostsController.cs",
+              "RelativeToolTip": "api2\\Controllers\\BlogPostsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T14:20:49.778Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

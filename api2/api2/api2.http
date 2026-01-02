@@ -1,0 +1,59 @@
+@api2_HostAddress = http://localhost:5077
+
+GET {{api2_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+POST {{api2_HostAddress}}/api/Users
+Content-Type: application/json
+
+{
+  "fullName": "New User",
+  "email": "new.user@shop.test",
+  "passwordHash": "HASHED_NEW",
+  "phone": "0912345678",
+  "avatar": null,
+  "address": "123 Test Street",
+  "status": 1,
+  "roleId": 2,
+  "lastLogin": null
+}
+
+###
+PUT {{api2_HostAddress}}/api/Users/1
+Content-Type: application/json
+
+{
+  "fullName": "Updated User",
+  "email": "updated.user@shop.test",
+  "passwordHash": "HASHED_UPDATED",
+  "phone": "0901112223",
+  "avatar": null,
+  "address": "456 Update Street",
+  "status": 0,
+  "roleId": 2,
+  "lastLogin": "2025-11-19T09:00:00Z"
+}
+
+###
+DELETE {{api2_HostAddress}}/api/Users/1
+###
+POST {{api2_HostAddress}}/api/BlogPosts
+Content-Type: application/json
+
+{
+  "title": "Blog API - Bài viết mới",
+  "content": "Nội dung bài viết mới tạo qua API."
+}
+
+###
+PUT {{api2_HostAddress}}/api/BlogPosts/1
+Content-Type: application/json
+
+{
+  "title": "Cập nhật tiêu đề",
+  "content": "Nội dung đã cập nhật"
+}
+
+###
+DELETE {{api2_HostAddress}}/api/BlogPosts/1
