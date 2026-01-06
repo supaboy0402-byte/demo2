@@ -2,7 +2,7 @@
 
 import { useEffect, useState, use } from "react"
 import { notFound } from "next/navigation"
-import { api, apiBase } from "@/lib/api"
+import { api } from "@/lib/api"
 import type { Product } from "@/lib/data/products"
 import { useCart } from "@/lib/contexts/cart-context"
 import { useWishlist } from "@/lib/contexts/wishlist-context"
@@ -58,8 +58,8 @@ export default function ProductDetailPage({ params }: { params: any }) {
           const s = String(u || "")
           if (!s) return ""
           if (s.startsWith("http://") || s.startsWith("https://")) return s
-          if (s.startsWith("/")) return `${apiBase}${s}`
-          return `${apiBase}/product-images/${s}`
+          if (s.startsWith("/")) return `/files${s}`
+          return `/files/product-images/${s}`
         }
 
         const imagesByPid: Record<number, Array<{ url: string; sort: number; main: boolean }>> = Array.isArray(imgs)

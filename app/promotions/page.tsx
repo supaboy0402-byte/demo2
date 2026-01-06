@@ -6,14 +6,24 @@ import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { Calendar, ArrowRight, Clock } from "lucide-react"
 import { ProductCard } from "@/components/product-card"
-import { api, apiBase } from "@/lib/api"
+import { api } from "@/lib/api"
 
 function resolveImg(url: string | null | undefined, base?: string) {
   const u = String(url || "").trim()
   if (!u) return "/placeholder.svg"
   if (/^(https?:|data:|blob:)/i.test(u)) return u
-  const b = base || apiBase
-  return `${b}${u.startsWith("/") ? u : `/${u}`}`
+  if (u.startsWith("/product-images/")) return `/files${u}`
+  if (u.startsWith("/promotion-images/")) return `/files${u}`
+  return u.startsWith("/") ? u : `/files/${u}`
+}
+
+function slugify(s: string) {
+  return String(s || "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "")
 }
 
 function formatDate(d: any) {
@@ -280,11 +290,7 @@ export default function PromotionsPage() {
 
                 <Button asChild size="lg" className="w-fit">
                   <Link
-                    href={
-                      String(promo.slug || "").trim()
-                        ? `/promotions/${encodeURIComponent(String(promo.slug || "").trim())}`
-                        : "/promotions"
-                    }
+                    href={`/promotions/${encodeURIComponent(String(promo.slug || "").trim() || slugify(promo.title))}`}
                   >
                     Xem chi tiết
                     <ArrowRight className="ml-2 h-5 w-5" />

@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useState } from "react"
 import { useSearchParams } from "next/navigation"
 import type { Product } from "@/lib/data/products"
-import { api, apiBase } from "@/lib/api"
+import { api } from "@/lib/api"
 import { ProductCard } from "@/components/product-card"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
@@ -57,8 +57,8 @@ export default function SearchPage() {
         const s = String(u || "")
         if (!s) return ""
         if (s.startsWith("http://") || s.startsWith("https://")) return s
-        if (s.startsWith("/")) return `${apiBase}${s}`
-        return `${apiBase}/product-images/${s}`
+        if (s.startsWith("/")) return `/files${s}`
+        return `/files/product-images/${s}`
       }
 
       const imageMap: Record<number, string> = Array.isArray(imgs)

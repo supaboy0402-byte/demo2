@@ -9,7 +9,7 @@ import { Slider } from "@/components/ui/slider"
 import { Checkbox } from "@/components/ui/checkbox"
 import { Label } from "@/components/ui/label"
 import type { Product } from "@/lib/data/products"
-import { api, apiBase } from "@/lib/api"
+import { api } from "@/lib/api"
 
 export default function CategoryPage({ params }: { params: any }) {
   const resolvedParams = use(params as any) as any
@@ -50,8 +50,8 @@ export default function CategoryPage({ params }: { params: any }) {
         const s = String(u || "")
         if (!s) return ""
         if (s.startsWith("http://") || s.startsWith("https://")) return s
-        if (s.startsWith("/")) return `${apiBase}${s}`
-        return `${apiBase}/product-images/${s}`
+        if (s.startsWith("/")) return `/files${s}`
+        return `/files/product-images/${s}`
       }
 
       const imageMap: Record<number, string> = Array.isArray(imgs)

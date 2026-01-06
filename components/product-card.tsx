@@ -11,7 +11,6 @@ import { useCart } from "@/lib/contexts/cart-context"
 import { useWishlist } from "@/lib/contexts/wishlist-context"
 import type { Product } from "@/lib/data/products"
 import { useToast } from "@/hooks/use-toast"
-import { apiBase } from "@/lib/api"
 
 interface ProductCardProps {
   product: Product
@@ -74,7 +73,9 @@ export function ProductCard({ product }: ProductCardProps) {
             const u = String(product.image || "").trim()
             if (!u) return "/placeholder.svg"
             if (/^(https?:|data:|blob:)/i.test(u)) return u
-            return `${apiBase}${u.startsWith("/") ? u : `/${u}`}`
+            if (u.startsWith("/product-images/")) return `/files${u}`
+            if (u.startsWith("/")) return u
+            return `/files/${u}`
           })()}
           alt={product.name}
           fill

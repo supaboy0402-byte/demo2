@@ -5,14 +5,15 @@ import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { Calendar, ArrowLeft, Clock } from "lucide-react"
 import { ProductCard } from "@/components/product-card"
-import { api, apiBase } from "@/lib/api"
+import { api } from "@/lib/api"
 
 function resolveImg(url: string | null | undefined, base?: string) {
   const u = String(url || "").trim()
   if (!u) return "/placeholder.svg"
   if (/^(https?:|data:|blob:)/i.test(u)) return u
-  const b = base || apiBase
-  return `${b}${u.startsWith("/") ? u : `/${u}`}`
+  if (u.startsWith("/product-images/")) return `/files${u}`
+  if (u.startsWith("/promotion-images/")) return `/files${u}`
+  return u.startsWith("/") ? u : `/files/${u}`
 }
 
 function formatDate(d: any) {
@@ -42,6 +43,15 @@ function daysLeft(endDate?: string) {
   } catch {
     return null
   }
+}
+
+function slugify(s: string) {
+  return String(s || "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "")
 }
 
 export default async function PromotionDetailPage({ params }: { params: any }) {
@@ -92,9 +102,21 @@ export default async function PromotionDetailPage({ params }: { params: any }) {
         }))
       : []
     promotion =
-      promotions.find(
-        (p: any) => String(p.slug || "").trim().toLowerCase() === slug.trim().toLowerCase()
-      ) || null
+      promotions.find((p: any) => {
+        const s1 = String(p.slug || "").trim().toLowerCase()
+        const s2 = slug.trim().toLowerCase()
+        if (s1 && s1 === s2) return true
+        const bySlugifySlug = slugify(p.slug) === slugify(slug)
+        if (bySlugifySlug) return true
+        const byTitle = slugify(p.title) === slugify(slug)
+        if (byTitle) return true
+        const words = slugify(slug).split("-").filter(Boolean)
+        if (words.length >= 2) {
+          const titleSlug = slugify(p.title)
+          if (words.every((w) => titleSlug.includes(w))) return true
+        }
+        return false
+      }) || null
   }
 
   if (!promotion) {

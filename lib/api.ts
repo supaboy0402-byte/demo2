@@ -10,6 +10,7 @@ export async function api(path: string, options?: RequestInit) {
   const candidates = Array.from(
     new Set(
       [
+        '/api',
         apiBase,
         'http://localhost:5077',
         'https://localhost:7132',

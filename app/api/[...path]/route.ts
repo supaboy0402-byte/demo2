@@ -1,14 +1,14 @@
 import type { NextRequest } from "next/server";
 
-export const runtime = "nodejs"; // quan trọng: để chạy fetch ổn định
+export const runtime = "nodejs";
 
-const BASE = process.env.SOMEE_BASE_URL || ""; // ví dụ: http://harmony-music.somee.com
+const BASE = process.env.SOMEE_BASE_URL || "";
 
 async function forward(req: NextRequest, path: string[]) {
   if (!BASE) return new Response("Missing SOMEE_BASE_URL", { status: 500 });
 
-  // ✅ luôn forward sang backend /api/...
-  const url = `${BASE}/api/${path.join("/")}${req.nextUrl.search}`;
+  const escaped = Array.isArray(path) ? path.map((s) => encodeURIComponent(s)) : [];
+  const url = `${BASE}/api/${escaped.join("/")}${req.nextUrl.search}`;
 
   const method = req.method;
   const body =
@@ -16,7 +16,6 @@ async function forward(req: NextRequest, path: string[]) {
 
   const headers = new Headers(req.headers);
 
-  // tránh vài header gây lỗi khi forward
   headers.delete("host");
   headers.delete("content-length");
 
@@ -28,7 +27,6 @@ async function forward(req: NextRequest, path: string[]) {
   });
 }
 
-// ✅ params phải await
 type Ctx = { params: Promise<{ path: string[] }> };
 
 export async function GET(req: NextRequest, ctx: Ctx) {

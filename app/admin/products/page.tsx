@@ -9,7 +9,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Plus, Search, Edit, Trash2, Eye, Image as ImageIcon, List as ListIcon, Tag as TagIcon, Clipboard, X } from "lucide-react"
 import { DropdownMenu, DropdownMenuCheckboxItem, DropdownMenuContent, DropdownMenuTrigger, DropdownMenuSeparator, DropdownMenuItem } from "@/components/ui/dropdown-menu"
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table"
-import { api, apiBase } from "@/lib/api"
+import { api } from "@/lib/api"
 import { useToast } from "@/hooks/use-toast"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogFooter } from "@/components/ui/dialog"
@@ -135,8 +135,9 @@ export default function AdminProductsPage() {
   function resolveImg(url: string | null | undefined) {
     const u = String(url || "").trim()
     if (!u) return ""
-    if (u.startsWith("http://") || u.startsWith("https://")) return u
-    return apiBase + u
+    if (/^(https?:|data:|blob:)/i.test(u)) return u
+    if (u.startsWith("/product-images/")) return `/files${u}`
+    return u.startsWith("/") ? u : `/files/${u}`
   }
 
   const imagesOfManaging = useMemo(() => {

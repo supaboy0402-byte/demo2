@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button"
 import { ArrowRight, Music, Guitar, Drum } from "lucide-react"
 import { ProductCard } from "@/components/product-card"
 import type { Product } from "@/lib/data/products"
-import { api, apiBase } from "@/lib/api"
+import { api } from "@/lib/api"
 
 export default function HomePage() {
   const [categories, setCategories] = useState<Array<{ id?: number; name: string; slug: string; description?: string }>>([])
@@ -43,8 +43,8 @@ export default function HomePage() {
         const s = String(u || "")
         if (!s) return ""
         if (s.startsWith("http://") || s.startsWith("https://")) return s
-        if (s.startsWith("/")) return `${apiBase}${s}`
-        return `${apiBase}/product-images/${s}`
+        if (s.startsWith("/")) return `/files${s}`
+        return `/files/product-images/${s}`
       }
 
       const imagesByPid: Record<number, Array<{ url: string; sort: number; main: boolean }>> = Array.isArray(imgs)

@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation"
 import { ProductCard } from "@/components/product-card"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
-import { api, apiBase } from "@/lib/api"
+import { api } from "@/lib/api"
 
 export const dynamic = "force-dynamic"
 export const revalidate = 0
@@ -11,8 +11,8 @@ const toAbs = (u: any) => {
   const s = String(u || "")
   if (!s) return ""
   if (s.startsWith("http://") || s.startsWith("https://")) return s
-  if (s.startsWith("/")) return `${apiBase}${s}`
-  return `${apiBase}/product-images/${s}`
+  if (s.startsWith("/")) return `/files${s}`
+  return `/files/product-images/${s}`
 }
 
 export async function generateStaticParams() {

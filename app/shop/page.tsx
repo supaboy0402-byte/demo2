@@ -10,7 +10,7 @@ import { Slider } from "@/components/ui/slider"
 import { SlidersHorizontal } from "lucide-react"
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet"
 import type { Product } from "@/lib/data/products"
-import { api, apiBase } from "@/lib/api"
+import { api } from "@/lib/api"
 import { Pagination, PaginationContent, PaginationItem, PaginationLink, PaginationNext, PaginationPrevious } from "@/components/ui/pagination"
 
 export default function ShopPage() {
@@ -58,8 +58,8 @@ export default function ShopPage() {
           const s = String(u || "")
           if (!s) return ""
           if (s.startsWith("http://") || s.startsWith("https://")) return s
-          if (s.startsWith("/")) return `${apiBase}${s}`
-          return `${apiBase}/product-images/${s}`
+          if (s.startsWith("/")) return `/files${s}`
+          return `/files/product-images/${s}`
         }
 
         const imageMap: Record<number, string> = Array.isArray(imgs)
